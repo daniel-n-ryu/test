@@ -199,4 +199,4 @@ bigMul l1 l2 = res
 	where
 	list :: BigInt -> BigInt -> [BigInt]
 	list _ [] = []
-	list a' (b':bs) = mulByDigit b a : list a bs
+	list a' (b':bs) = mulByDigit b' a' : list a' bs
